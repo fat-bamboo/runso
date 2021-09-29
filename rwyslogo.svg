@@ -1,0 +1,16 @@
+<svg width="480" height="120" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 480 120;" version="1.1">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="122" width="482" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#4c5a78" transform="matrix(1.2977962798245812,0,0,1.5539590679109097,-109.85185503921355,-41.07948424551443) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="40" id="svg_1" y="60.522091" x="249.981279" stroke-width="0" fill="#e22222">Rùn</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="45" id="svg_3" y="48.453125" x="331.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#007fff">物</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="42" id="svg_4" y="153.453125" x="199.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">有</text>
+  <text stroke="#000" transform="matrix(0.8882937951029538,0,0,1.1045928292041132,201.18292894364342,53.974942767352324) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="40" id="svg_5" y="43.09038" x="64.197128" stroke-opacity="null" stroke-width="0" fill="#ff56ff">Shēng</text>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="102.45312" x2="204.5" y1="11.453118" x1="204.5" stroke-opacity="null" fill="none"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="45" id="svg_7" y="97.453125" x="213.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff7f00">有</text>
+ </g>
+</svg>
