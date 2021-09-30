@@ -36,7 +36,7 @@
         </video-->
         <!--注释掉视频可换成图片版本-->
         <!--img src="https://cn.bing.com//th?id=OHR.HuntsMesa_JA-JP3140979616_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" alt=""-->
-        <img src="https://picsum.photos/1920/1080?grayscale&blur=2" alt="">
+        <img src="https://picsum.photos/1920/1080?grayscale&blur=1" alt="">
         <div class="bottom-cover" style="background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(244 248 251 / 0.6) 50%, rgb(244 248 251) 100%);"></div>
     </div>
     <!--topbar开始-->
@@ -131,6 +131,18 @@
     <div class="container" style="margin-top: 100px; position: relative; z-index: 100;">
         <!--搜索开始-->
         <div id="search" class="s-search">
+                                      <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                               <font size="4" face="PingFang SC" ><div align="center" id="poem_sentence"></div></font></p>
+                               <font size="1" face="PingFang SC" ><div align="center" id="poem_info"></div></font>
+                           </p>
+                               <script type="text/javascript">
+                                   jinrishici.load(function(result) {
+                                   var sentence = document.querySelector("#poem_sentence")
+                                   var info = document.querySelector("#poem_info")
+                                   sentence.innerHTML = '“ '+result.data.content + '”'
+                                   info.innerHTML = '《' + result.data.origin.title + '》' + '[' + result.data.origin.dynasty + ']' + result.data.origin.author
+                                        });
+                               </script>
             <div id="search-list" class="hide-type-list">
                 <div class="search-group group-a s-current" style="padding-left: 20px">
                     <ul class="search-type">
